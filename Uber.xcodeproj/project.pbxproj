@@ -10,6 +10,7 @@
 		ED55A9B425544000003A109A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED55A9B325544000003A109A /* LoginController.swift */; };
 		ED55A9B925544879003A109A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED55A9B825544879003A109A /* Extensions.swift */; };
 		ED55A9BC25559474003A109A /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED55A9BB25559474003A109A /* SignUpController.swift */; };
+		ED55A9BF2558641F003A109A /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED55A9BE2558641F003A109A /* AuthButton.swift */; };
 		ED872EF7255438D100065E93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED872EF6255438D100065E93 /* AppDelegate.swift */; };
 		ED872EF9255438D100065E93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED872EF8255438D100065E93 /* SceneDelegate.swift */; };
 		ED872F00255438D400065E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED872EFF255438D400065E93 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		ED55A9B325544000003A109A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		ED55A9B825544879003A109A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		ED55A9BB25559474003A109A /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		ED55A9BE2558641F003A109A /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
 		ED872EF3255438D100065E93 /* Uber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED872EF6255438D100065E93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED872EF8255438D100065E93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		ED55A9AF25543EAA003A109A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				ED55A9BE2558641F003A109A /* AuthButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED55A9BC25559474003A109A /* SignUpController.swift in Sources */,
+				ED55A9BF2558641F003A109A /* AuthButton.swift in Sources */,
 				ED872EF7255438D100065E93 /* AppDelegate.swift in Sources */,
 				ED55A9B425544000003A109A /* LoginController.swift in Sources */,
 				ED872EF9255438D100065E93 /* SceneDelegate.swift in Sources */,
