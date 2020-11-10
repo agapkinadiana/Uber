@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		ED55A9BC25559474003A109A /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED55A9BB25559474003A109A /* SignUpController.swift */; };
 		ED55A9BF2558641F003A109A /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED55A9BE2558641F003A109A /* AuthButton.swift */; };
 		ED55A9C2255872E7003A109A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED55A9C1255872E7003A109A /* GoogleService-Info.plist */; };
+		ED55A9D8255B3FA3003A109A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED55A9D7255B3FA2003A109A /* HomeController.swift */; };
 		ED872EF7255438D100065E93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED872EF6255438D100065E93 /* AppDelegate.swift */; };
 		ED872EF9255438D100065E93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED872EF8255438D100065E93 /* SceneDelegate.swift */; };
 		ED872F00255438D400065E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED872EFF255438D400065E93 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		ED55A9BB25559474003A109A /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		ED55A9BE2558641F003A109A /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
 		ED55A9C1255872E7003A109A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		ED55A9D7255B3FA2003A109A /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		ED872EF3255438D100065E93 /* Uber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED872EF6255438D100065E93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED872EF8255438D100065E93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +64,6 @@
 				9B703FD1F50EDC2741F7249D /* Pods-Uber.debug.xcconfig */,
 				A27488644314783D912BFF89 /* Pods-Uber.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -86,6 +87,7 @@
 			children = (
 				ED55A9B325544000003A109A /* LoginController.swift */,
 				ED55A9BB25559474003A109A /* SignUpController.swift */,
+				ED55A9D7255B3FA2003A109A /* HomeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -257,6 +259,7 @@
 			files = (
 				ED55A9BC25559474003A109A /* SignUpController.swift in Sources */,
 				ED55A9BF2558641F003A109A /* AuthButton.swift in Sources */,
+				ED55A9D8255B3FA3003A109A /* HomeController.swift in Sources */,
 				ED872EF7255438D100065E93 /* AppDelegate.swift in Sources */,
 				ED55A9B425544000003A109A /* LoginController.swift in Sources */,
 				ED872EF9255438D100065E93 /* SceneDelegate.swift in Sources */,
