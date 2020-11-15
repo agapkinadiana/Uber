@@ -78,8 +78,11 @@ class LoginController: UIViewController {
                 print("DEBUG: Failed to log user in with error \(error.localizedDescription)")
                 return
             }
-            
-            print("Successfully logged user in...")
+        
+            guard let sceneDelegate = UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate else { return }
+            guard let controller = sceneDelegate.window?.rootViewController as? HomeController else { return }
+            controller.configureUI()
+            self.dismiss(animated: true, completion: nil)
         }
     }
     
