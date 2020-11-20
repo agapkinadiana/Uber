@@ -136,7 +136,7 @@ class SignUpController: UIViewController {
         REF_USERS.child(uid).updateChildValues(values) { (error, ref) in
             guard let sceneDelegate = UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate else { return }
             guard let controller = sceneDelegate.window?.rootViewController as? HomeController else { return }
-            controller.configureUI()
+            controller.configure()
             self.dismiss(animated: true, completion: nil)
         }
     }
