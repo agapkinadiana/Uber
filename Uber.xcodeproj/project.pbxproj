@@ -10,9 +10,9 @@
 		3055F2DD2562DFA5009DA436 /* LocationInputActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3055F2DC2562DFA5009DA436 /* LocationInputActivationView.swift */; };
 		3055F2E0256419F1009DA436 /* LocationInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3055F2DF256419F1009DA436 /* LocationInputView.swift */; };
 		3055F2E3256530C3009DA436 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3055F2E2256530C3009DA436 /* LocationCell.swift */; };
-		3055F2E625653F72009DA436 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3055F2E525653F72009DA436 /* Service.swift */; };
-		3055F2E925654B4A009DA436 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3055F2E825654B4A009DA436 /* User.swift */; };
 		3055F2EC256553D1009DA436 /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3055F2EB256553D1009DA436 /* LocationHandler.swift */; };
+		3055F2F22567DA43009DA436 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3055F2F12567DA43009DA436 /* User.swift */; };
+		3055F2F62567DA5C009DA436 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3055F2F52567DA5C009DA436 /* Service.swift */; };
 		49ACC9E15FEE171093501855 /* Pods_Uber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D51D37A1635682BFA48D88 /* Pods_Uber.framework */; };
 		ED55A9B425544000003A109A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED55A9B325544000003A109A /* LoginController.swift */; };
 		ED55A9B925544879003A109A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED55A9B825544879003A109A /* Extensions.swift */; };
@@ -30,9 +30,9 @@
 		3055F2DC2562DFA5009DA436 /* LocationInputActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInputActivationView.swift; sourceTree = "<group>"; };
 		3055F2DF256419F1009DA436 /* LocationInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInputView.swift; sourceTree = "<group>"; };
 		3055F2E2256530C3009DA436 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
-		3055F2E525653F72009DA436 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Service.swift; path = Uber/Service.swift; sourceTree = SOURCE_ROOT; };
-		3055F2E825654B4A009DA436 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = Uber/User.swift; sourceTree = SOURCE_ROOT; };
 		3055F2EB256553D1009DA436 /* LocationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
+		3055F2F12567DA43009DA436 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3055F2F52567DA5C009DA436 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		9B703FD1F50EDC2741F7249D /* Pods-Uber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uber.debug.xcconfig"; path = "Target Support Files/Pods-Uber/Pods-Uber.debug.xcconfig"; sourceTree = "<group>"; };
 		A27488644314783D912BFF89 /* Pods-Uber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uber.release.xcconfig"; path = "Target Support Files/Pods-Uber/Pods-Uber.release.xcconfig"; sourceTree = "<group>"; };
 		D0D51D37A1635682BFA48D88 /* Pods_Uber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Uber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +62,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3055F2EE2567D998009DA436 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3055F2F12567DA43009DA436 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3055F2EF2567D9A1009DA436 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3055F2F52567DA5C009DA436 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		5EE795682C3B784C0A208A33 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,14 +104,6 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		ED55A9AD25543EA7003A109A /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				3055F2E525653F72009DA436 /* Service.swift */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
 		ED55A9AE25543EA9003A109A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,14 +123,6 @@
 				3055F2E2256530C3009DA436 /* LocationCell.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		ED55A9B025543EAC003A109A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				3055F2E825654B4A009DA436 /* User.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		ED872EEA255438D100065E93 = {
@@ -146,10 +146,10 @@
 		ED872EF5255438D100065E93 /* Uber */ = {
 			isa = PBXGroup;
 			children = (
-				ED55A9B025543EAC003A109A /* Model */,
+				3055F2EE2567D998009DA436 /* Model */,
 				ED55A9AF25543EAA003A109A /* View */,
 				ED55A9AE25543EA9003A109A /* Controller */,
-				ED55A9AD25543EA7003A109A /* Service */,
+				3055F2EF2567D9A1009DA436 /* Service */,
 				ED55A9AC25543E98003A109A /* Utils */,
 				ED872EF6255438D100065E93 /* AppDelegate.swift */,
 				ED872EF8255438D100065E93 /* SceneDelegate.swift */,
@@ -275,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3055F2F22567DA43009DA436 /* User.swift in Sources */,
+				3055F2F62567DA5C009DA436 /* Service.swift in Sources */,
 				ED55A9BC25559474003A109A /* SignUpController.swift in Sources */,
 				ED55A9BF2558641F003A109A /* AuthButton.swift in Sources */,
 				ED55A9D8255B3FA3003A109A /* HomeController.swift in Sources */,
@@ -284,8 +286,6 @@
 				3055F2E3256530C3009DA436 /* LocationCell.swift in Sources */,
 				3055F2EC256553D1009DA436 /* LocationHandler.swift in Sources */,
 				ED872EF9255438D100065E93 /* SceneDelegate.swift in Sources */,
-				3055F2E925654B4A009DA436 /* User.swift in Sources */,
-				3055F2E625653F72009DA436 /* Service.swift in Sources */,
 				3055F2DD2562DFA5009DA436 /* LocationInputActivationView.swift in Sources */,
 				ED55A9B925544879003A109A /* Extensions.swift in Sources */,
 			);

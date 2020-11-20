@@ -5,6 +5,7 @@
 //  Created by Diana Agapkina on 18.11.20.
 //
 
+
 import CoreLocation
 
 struct User {

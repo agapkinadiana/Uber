@@ -5,6 +5,7 @@
 //  Created by Diana Agapkina on 18.11.20.
 //
 
+
 import Firebase
 import CoreLocation
 import GeoFire
@@ -37,6 +38,5 @@ struct Service {
                 }
             })
         }
-        
     }
 }
